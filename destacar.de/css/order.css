@@ -1,0 +1,178 @@
+.order{
+	height: 2205px;
+}
+
+.containerform{
+	width: 650px;
+	margin: 0 auto;
+}
+
+.form{
+	/*height: 2142px;*/
+	padding-bottom: 25px;
+	width: 690px;
+	background: #eaeaea;
+	border-radius: 10px;
+	border: 2px solid #6c6c6c;
+	float: left;
+}
+
+.inputs{
+	margin-top: 40px;
+}
+
+.selectname{
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 28px;
+}
+
+.selectyear{
+	width: 638px;
+	height: 38px;
+}
+
+.videofile{
+	float: right;
+	margin-top: 120px;
+	margin-bottom: 78px;
+}
+
+.hh{
+	font-size: 48px;
+	margin-top: 92px;
+	margin-bottom: 75px;
+	margin-left: 35px;
+}
+
+.hh2{
+	color: #6c6c6c;
+	margin-top: 0;
+	margin-bottom: 63px;
+	font-size: 30px;
+	margin-left: 35px;
+}
+
+.inputs, .inputs, .inputs3, .inputs4{
+	display: inline-block;
+}
+
+.year, .run, .fuel, .transmission, .cab, .salon, .added, .link{
+	font-size: 20px;
+	color: #797979;
+	margin-left: 12px;
+	margin-bottom: 7px;
+	margin-top: 25px;
+}
+
+input[name="name"], input[name="phone"], input[name="email"],
+input[name="brand"], input[name="model"], input[name="budget"], 
+input[name="capacity"], input[name="power"], input[name="color"],
+input[name="link"]{
+	width: 638px;
+	height: 38px;
+	font-size: 20px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+
+.year1, .year2, .run1{
+	width: 320px;
+	height: 33px;
+	font-size: 20px;
+	margin-bottom: 25px
+	border-radius: 4px;
+	padding-left: 10px;
+	color: #797979;
+}
+
+.run1{
+	margin-bottom: 50px;
+}
+
+
+.fuelclass, .transmissionclass, .cabclass, .salonclass{
+	margin-left: 30px;
+}
+
+.fuelinput, .transmissioninput, .cabinput, .saloninput{
+	margin-top: 7px;
+}
+
+textarea{
+	padding: 7px;
+	color: #797979;
+	font-size: 20px;
+}
+
+.added{
+	padding-top: 25px;
+}
+
+.sending{
+	width: 319px;
+	height: 37px;
+	background: #dd1c1c;
+	border-radius: 6px;
+	float: right;
+	font-size: 20px;
+	color: #fff;
+	border: 0;
+	margin-top: 25px;
+}
+
+.containeraddlink{
+	width: 600px;
+	float: right;
+}
+
+.addlink{
+	color: #d03241;
+	font-size: 20px;
+}
+
+.links{
+	margin-top: 40px;
+}
+
+.links a{
+	margin-right: 45px;
+}
+
+.links a:hover{
+	border-bottom: 2px solid red;
+}
+
+
+
+
+
+
+
+/*
+<option>2018</option>
+					<option>2017</option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+					<option>2013</option>
+					<option>2012</option>
+					<option>2011</option>
+					<option>2010</option>
+					<option>2009</option>
+					<option>2008</option>
+					<option>2007</option>
+					<option>2006</option>
+					<option>2005</option>
+					<option>2004</option>
+					<option>2003</option>
+					<option>2002</option>
+					<option>2001</option>
+					<option>2000</option>
+					<option>1999</option>
+					<option>1998</option>
+					<option>1997</option>
+					<option>1996</option>
+					<option>1995</option>
+*/

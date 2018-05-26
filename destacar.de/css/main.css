@@ -1,0 +1,423 @@
+body{
+	font-family: Open Sans, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+header{
+	background: url(../img/bmw760Li.jpg) no-repeat center top / cover;
+	padding-bottom: 150px;
+	width: 100%;
+}
+
+.container{
+	width: 1358px;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: 41px;
+	float: left;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+}
+
+.menu li{
+	list-style: none;
+	display: flex;
+	margin-right: 30px;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.heading{
+	width: 1358px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.heading a{
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: Myriad Pro;
+	padding: 57px 9px 22px 9px;
+}
+
+.heading a:hover{
+	background: #dd374d;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.heading ul{
+	display: flex;
+}
+
+/*nav{
+	float: right;
+	margin-top: 57px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 42px;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Myriad Pro;
+}
+
+/*.menuhover:hover{
+	font-size: 20px;
+	color: #dd374d;
+	transition: 0.3s;
+}*/
+
+.mainLogo{
+	display: block;
+	padding: 0;
+	margin: auto;
+	margin-top: 180px;
+}
+
+.containerTitle{
+	font-family: Myriad Pro;
+	color: #d7d8d9;
+	width: 536px;
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 72px;
+	margin-top: 15px;
+	float: left;
+}
+
+h2{
+	font-size: 46px;
+	float: right;
+	margin: 0px;
+	text-align: center;
+}
+
+h5{
+	font-family: Open Sans Regular;
+	font-size: 15px;
+	color: #f9ad18;
+	text-align: center;
+	margin: 0;
+	font-weight: initial;
+}
+
+h3{
+	font-family: Open Sans;
+	font-size: 28px;
+	float: left;
+	color: black;
+	margin: 0;
+	margin-top: 36px;
+}
+
+.zamovyty{
+	height: 118px;
+	width: 1072px;
+}
+
+.button{
+	margin: 0 auto;
+	margin-top: 34px;
+	float: right;
+	background: #c7081b;
+	color: #fff;
+	border-radius: 5px;
+	display: block;
+	width: 237px;
+	text-align: center;
+	text-decoration: none;
+	padding: 13px 0;
+	transition: 0.5s;
+}
+
+.button:hover{
+	background: #f9ad18;
+	color: #c7081b;
+}
+
+.info{
+	background: url(../img/AudiA6.jpg) no-repeat center top / cover;
+	height: 100%;
+	width: 100%;
+}
+
+.quality{
+	margin-top: 80px;
+	padding-left: 220px;
+}
+
+.quality_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+	margin-right: 120px;
+}
+
+.quality_item h6{
+	font-size: 30px;
+	color: #dd374d;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.quality_item p{
+	margin-top: 0;
+	font-size: 16px;
+	color: #d2d2d2;
+}
+
+.quality_item:nth-child(3){
+	padding-top: 21px;
+}
+
+.separator{
+	display: block;
+	padding: 0;
+	margin: auto;
+	margin-bottom: 0;
+}
+
+h4{
+	text-align: center;
+	font-size: 120px;
+	font-family: Arial;
+	color: #dd374d;
+	padding: 0;
+	margin: 0;
+}
+
+.belief{
+	text-align: center;
+	font-size: 30px;
+	color: #dd374d;
+	padding: 0;
+	margin: 0;
+	margin-top: -70px;
+}
+
+.firstP{
+	color: #d2d2d2;
+	text-align: center;
+}
+
+.secondP{
+	color: #d2d2d2;
+	/*margin-left: 470px;*/
+	text-align: justify;
+	width: 1000px;
+	display: block;
+	padding: 0;
+	margin: auto;
+}
+
+.titleAbout{
+	font-size: 24px;
+	margin-left: 0;
+}
+
+.titleHello{
+	margin: 0;
+	padding: 0;
+}
+
+.titleHello h6{
+	font-size: 24px;
+	margin-top: 63px;
+	font-weight: initial;
+	text-transform: uppercase;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.titleHello2{
+	font-size: 24px;
+	margin-top: 63px;
+	font-weight: initial;
+	text-transform: uppercase;
+	float: right;
+	margin-right: 245px;
+}
+
+.firstvideo{
+	float: right;
+}
+
+.opys{
+	float: left;
+	margin: 0;
+	font-size: 20px;
+	padding: 0;
+	margin-left: 50px;
+}
+
+.destacar{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;
+	margin-top: 60px; 
+}
+
+.secondvideo{
+	display: block;
+	padding: 0;
+	margin: auto;
+}
+
+.statistic{
+	display: block;
+	padding: 0;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.mapHead{
+	display: block;
+	padding: 0;
+	margin: auto;
+	margin-top: 150px;
+	margin-left: 0;
+}
+
+.map{
+	display: block;
+	padding: 0;
+	margin: auto;
+	margin-bottom: 0;
+}
+
+.containerGrafic{
+	width: 1920px;
+	height: 345px;
+	background: #f4f4f4;
+	margin-top: 0;
+}
+
+.gTitle{
+	float: left;
+	margin-right: 120px;
+}
+
+.graficTitle{
+	padding-left: 150px;
+	font-size: 30px;
+}
+
+.separator2{
+	/*display: block;
+	padding: 0;
+	margin: auto;*/
+	padding-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 520px;
+}
+
+.imgGrafic{
+	/*display: grid;
+	grid-template-columns: repeat(5, 1);*/
+	padding-left: 130px;
+	margin-top: 20px;
+}
+
+.imgG{
+	margin-right: 86px;
+}
+
+.imgG:nth-child(2){
+	margin-right: 220px;
+}
+
+.imgG:nth-child(3){
+	margin-right: 220px;
+}
+
+.imgG:nth-child(4){
+	margin-right: 110px;
+}
+
+.containerFooter{
+	width: 1920px;
+	height: 140px;
+	background: #434343;
+}
+
+.social{
+	padding-left: 805px;
+	margin: 0 auto;
+}
+
+.ico{
+	margin-right: 40px;
+	margin-top: 22px;
+	color: #f4f4f4;
+}
+
+.ico:hover{
+	transform: scale(1.4);
+	transition: 0.5s;
+	color: #c71f1f;
+}
+
+.carrepaete{
+	float: right;
+	padding-right: 70px;
+	margin-top: -20px;
+}
+
+.endtext{
+	float: left;
+	text-align: center;
+	padding-left: 780px;
+	color: #f4f4f4;
+	margin-top: 15px;
+}
+
+.Rem{
+	float: right;
+	padding-right: 160px;
+	margin-top: -35px;
+	padding-top: 0;
+	color: #f4f4f4;
+	text-align: center;
+}
+
